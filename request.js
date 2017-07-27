@@ -1065,6 +1065,11 @@ Request.prototype.onRequestResponse = function (response) {
 
     self.responseContent = responseContent
 
+    //ignore 405 error
+    if (response.statusCode == 405) {
+      response.statusCode = 200;
+    }
+
     self.emit('response', response)
 
     self.dests.forEach(function (dest) {
