@@ -1,13 +1,13 @@
 {
   "name": "request__no_405",
-  "description": "Simplified HTTP request client.",
+  "description": "[tmp fork] Simplified HTTP request client.",
   "keywords": [
     "http",
     "simple",
     "util",
     "utility"
   ],
-  "version": "2.81.2",
+  "version": "2.81.3",
   "author": "Mikeal Rogers <mikeal.rogers@gmail.com>",
   "repository": {
     "type": "git",
